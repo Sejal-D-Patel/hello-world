@@ -1,0 +1,161 @@
+{
+  "uid" : "90ba419468ca451d",
+  "name" : "test_001_verifyLoginApplication",
+  "fullName" : "tests.LoginTest.test_001_verifyLoginApplication",
+  "historyId" : "ee1f1cb7d82db98de3d29d64c657db6",
+  "time" : {
+    "start" : 1615777598533,
+    "stop" : 1615777630474,
+    "duration" : 31941
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TestCase_001 - verify Login Application",
+      "time" : {
+        "start" : 1615777598617,
+        "stop" : 1615777603897,
+        "duration" : 5280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Success Message: ",
+        "time" : {
+          "start" : 1615777603893,
+          "stop" : 1615777603896,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "Login successfully."
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ce764fbe232fadb4",
+      "name" : "Page Screenshot",
+      "source" : "ce764fbe232fadb4.png",
+      "type" : "image/png",
+      "size" : 197782
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_001_verifyLoginApplication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "test-project-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VOJDR2PL"
+  }, {
+    "name" : "thread",
+    "value" : "10024@LAPTOP-VOJDR2PL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test Suite - Login Details"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "172775ec8698fecd",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615720257574,
+        "stop" : 1615720260598,
+        "duration" : 3024
+      }
+    }, {
+      "uid" : "9d649401e8ac4a0e",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615720075631,
+        "stop" : 1615720078750,
+        "duration" : 3119
+      }
+    }, {
+      "uid" : "9d436a0f260d6072",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615719946690,
+        "stop" : 1615719948963,
+        "duration" : 2273
+      }
+    }, {
+      "uid" : "dbe9350a436b03b0",
+      "status" : "skipped",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-VOJDR2PL', ip: '192.168.43.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1615719822464,
+        "stop" : 1615719822464,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1eb91d34f09d4f36",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615719701033,
+        "stop" : 1615719701036,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90ba419468ca451d.json",
+  "parameterValues" : [ ]
+}

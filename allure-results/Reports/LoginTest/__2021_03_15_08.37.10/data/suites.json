@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "test-project-automation",
+      "children" : [ {
+        "name" : "tests.LoginTest",
+        "children" : [ {
+          "name" : "setup",
+          "uid" : "a0714ad9db6aeec9",
+          "parentUid" : "34b570585096f3f12dfd36eb756220bd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1615719822209,
+            "stop" : 1615719822212,
+            "duration" : 3
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "tearDown",
+          "uid" : "34122e16463ac29f",
+          "parentUid" : "34b570585096f3f12dfd36eb756220bd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1615720079680,
+            "stop" : 1615720079682,
+            "duration" : 2
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_001_verifyLoginApplication",
+          "uid" : "90ba419468ca451d",
+          "parentUid" : "34b570585096f3f12dfd36eb756220bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615777598533,
+            "stop" : 1615777630474,
+            "duration" : 31941
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "34b570585096f3f12dfd36eb756220bd"
+      } ],
+      "uid" : "306368547d5ace6e59a3458b4e23c6a9"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

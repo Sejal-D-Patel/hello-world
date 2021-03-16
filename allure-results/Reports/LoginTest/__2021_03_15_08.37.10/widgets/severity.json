@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a0714ad9db6aeec9",
+  "name" : "setup",
+  "time" : {
+    "start" : 1615719822209,
+    "stop" : 1615719822212,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "34122e16463ac29f",
+  "name" : "tearDown",
+  "time" : {
+    "start" : 1615720079680,
+    "stop" : 1615720079682,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "90ba419468ca451d",
+  "name" : "test_001_verifyLoginApplication",
+  "time" : {
+    "start" : 1615777598533,
+    "stop" : 1615777630474,
+    "duration" : 31941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

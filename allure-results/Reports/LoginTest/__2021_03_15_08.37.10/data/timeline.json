@@ -1,0 +1,57 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-VOJDR2PL",
+    "children" : [ {
+      "name" : "16632@LAPTOP-VOJDR2PL.main(1)",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "34122e16463ac29f",
+        "parentUid" : "ce57e672bcb2942a7b89bc65ee009526",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615720079680,
+          "stop" : 1615720079682,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce57e672bcb2942a7b89bc65ee009526"
+    }, {
+      "name" : "10024@LAPTOP-VOJDR2PL.main(1)",
+      "children" : [ {
+        "name" : "test_001_verifyLoginApplication",
+        "uid" : "90ba419468ca451d",
+        "parentUid" : "a4f31030ccb55960e6cec8d95d5b0122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615777598533,
+          "stop" : 1615777630474,
+          "duration" : 31941
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4f31030ccb55960e6cec8d95d5b0122"
+    }, {
+      "name" : "11776@LAPTOP-VOJDR2PL.main(1)",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "a0714ad9db6aeec9",
+        "parentUid" : "0cba78cd4e909dd07b4721bb9359a4d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615719822209,
+          "stop" : 1615719822212,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cba78cd4e909dd07b4721bb9359a4d4"
+    } ],
+    "uid" : "9f292aefed4ae277c8333c424de1b3cc"
+  } ]
+}

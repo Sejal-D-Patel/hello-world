@@ -1,0 +1,144 @@
+{
+  "uid" : "6af5cf82d9822973",
+  "name" : "test_001_verifyLoginApplication",
+  "fullName" : "tests.LoginTest.test_001_verifyLoginApplication",
+  "historyId" : "ee1f1cb7d82db98de3d29d64c657db6",
+  "time" : {
+    "start" : 1615777598533,
+    "stop" : 1615777630474,
+    "duration" : 31941
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1615777574193,
+      "stop" : 1615777598281,
+      "duration" : 24088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TestCase_001 - verify Login Application",
+      "time" : {
+        "start" : 1615777598617,
+        "stop" : 1615777603897,
+        "duration" : 5280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Success Message: ",
+        "time" : {
+          "start" : 1615777603893,
+          "stop" : 1615777603896,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "Login successfully."
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b72eb281c10fed16",
+      "name" : "Page Screenshot",
+      "source" : "b72eb281c10fed16.png",
+      "type" : "image/png",
+      "size" : 197782
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1615777630765,
+      "stop" : 1615777668572,
+      "duration" : 37807
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_001_verifyLoginApplication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "test-project-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VOJDR2PL"
+  }, {
+    "name" : "thread",
+    "value" : "10024@LAPTOP-VOJDR2PL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test Suite - Login Details"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6af5cf82d9822973.json",
+  "parameterValues" : [ ]
+}

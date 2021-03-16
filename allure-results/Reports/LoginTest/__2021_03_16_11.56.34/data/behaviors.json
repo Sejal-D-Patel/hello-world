@@ -1,0 +1,45 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Regression Test Suite - Login Details",
+    "children" : [ {
+      "name" : "tearDown",
+      "uid" : "82a421401aafe7fd",
+      "parentUid" : "4b009936e5f4e3fafb01d7c85c604f73",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615720079680,
+        "stop" : 1615720079682,
+        "duration" : 2
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "setup",
+      "uid" : "e5b8a86d57699b3c",
+      "parentUid" : "4b009936e5f4e3fafb01d7c85c604f73",
+      "status" : "broken",
+      "time" : {
+        "start" : 1615874741762,
+        "stop" : 1615874741765,
+        "duration" : 3
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_001_verifyLoginApplication",
+      "uid" : "f88f705d297dca1d",
+      "parentUid" : "4b009936e5f4e3fafb01d7c85c604f73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615875988511,
+        "stop" : 1615875994035,
+        "duration" : 5524
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b009936e5f4e3fafb01d7c85c604f73"
+  } ]
+}

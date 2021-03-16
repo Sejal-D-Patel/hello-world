@@ -1,0 +1,61 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-VOJDR2PL', ip: '192.168.43.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver",
+      "children" : [ {
+        "name" : "setup",
+        "uid" : "d55eb0ef56544d16",
+        "parentUid" : "0681fac6369fd75bb86c450daea479ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615719822209,
+          "stop" : 1615719822212,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0681fac6369fd75bb86c450daea479ec"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "9f6fcb3deff4dd33",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615720079680,
+          "stop" : 1615720079682,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "User Could not login to application.java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "test_001_verifyLoginApplication",
+        "uid" : "62e4f3265eb67b64",
+        "parentUid" : "78a0407cda9502453d15f6a038a18fe7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615720257574,
+          "stop" : 1615720260598,
+          "duration" : 3024
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78a0407cda9502453d15f6a038a18fe7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

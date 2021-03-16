@@ -1,0 +1,170 @@
+{
+  "uid" : "be042a6d449f88f4",
+  "name" : "test_001_verifyLoginApplication",
+  "fullName" : "tests.LoginTest.test_001_verifyLoginApplication",
+  "historyId" : "ee1f1cb7d82db98de3d29d64c657db6",
+  "time" : {
+    "start" : 1615875367426,
+    "stop" : 1615875379253,
+    "duration" : 11827
+  },
+  "status" : "failed",
+  "statusMessage" : "User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)",
+  "statusTrace" : "java.lang.AssertionError: User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat tests.LoginTest.test_001_verifyLoginApplication(LoginTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)",
+    "statusTrace" : "java.lang.AssertionError: User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat tests.LoginTest.test_001_verifyLoginApplication(LoginTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+    "steps" : [ {
+      "name" : "TestCase_001 - verify Login Application",
+      "time" : {
+        "start" : 1615875367544,
+        "stop" : 1615875372712,
+        "duration" : 5168
+      },
+      "status" : "failed",
+      "statusMessage" : "User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)",
+      "statusTrace" : "java.lang.AssertionError: User Could not login to application.java.io.FileNotFoundException: D:\\Sejal\\MM_Project\\test-project-automation\\json_files\\login.json (The system cannot find the file specified)\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat tests.LoginTest.test_001_verifyLoginApplication(LoginTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "92484a6ccb1337c2",
+      "name" : "Page Screenshot",
+      "source" : "92484a6ccb1337c2.png",
+      "type" : "image/png",
+      "size" : 93591
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_001_verifyLoginApplication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "test-project-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VOJDR2PL"
+  }, {
+    "name" : "thread",
+    "value" : "11612@LAPTOP-VOJDR2PL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression Test Suite - Login Details"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5efb7adbc595849b",
+      "status" : "skipped",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-VOJDR2PL', ip: '192.168.43.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1615874741953,
+        "stop" : 1615874741955,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6af5cf82d9822973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615777598533,
+        "stop" : 1615777630474,
+        "duration" : 31941
+      }
+    }, {
+      "uid" : "e8841650731a911b",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615720257574,
+        "stop" : 1615720260598,
+        "duration" : 3024
+      }
+    }, {
+      "uid" : "6d210061abae23a8",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615720075631,
+        "stop" : 1615720078750,
+        "duration" : 3119
+      }
+    }, {
+      "uid" : "81eb4b42cd8cb9a2",
+      "status" : "failed",
+      "statusDetails" : "User Could not login to application.java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615719946690,
+        "stop" : 1615719948963,
+        "duration" : 2273
+      }
+    }, {
+      "uid" : "46192956446f64eb",
+      "status" : "skipped",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-VOJDR2PL', ip: '192.168.43.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1615719822464,
+        "stop" : 1615719822464,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bbb0d6974f9adc6c",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615719701033,
+        "stop" : 1615719701036,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be042a6d449f88f4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "ee1f1cb7d82db98de3d29d64c657db6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90ba419468ca451d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615777598533,
+        "stop" : 1615777630474,
+        "duration" : 31941
+      }
+    } ]
+  },
+  "f9e01679e88bb209038ef52556d039ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0714ad9db6aeec9",
+      "status" : "broken",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-VOJDR2PL', ip: '192.168.43.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1615719822209,
+        "stop" : 1615719822212,
+        "duration" : 3
+      }
+    } ]
+  },
+  "8baf1684d9f89f4069d7416bcda98973" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34122e16463ac29f",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1615720079680,
+        "stop" : 1615720079682,
+        "duration" : 2
+      }
+    } ]
+  }
+}

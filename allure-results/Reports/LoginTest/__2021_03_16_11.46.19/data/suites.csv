@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"failed","tests.LoginTest.test_001_verifyLoginApplication","11827",""
+"broken","drivermanager.DriverFactory.tearDown","2",""
+"broken","drivermanager.DriverFactory.setup","3",""
